@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#container {
+  margin: 40px;
+  border: 1px solid black;
+  height: 1000px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gridRow {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.gridCell {
+  border: 1px solid #D8D8D8;
+  flex: 1;
+}
+
+.gridCell:hover {
+  background-color: #d8d8d8;
+}
