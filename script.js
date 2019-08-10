@@ -1,6 +1,13 @@
 const container = document.querySelector("#container");
 
-createGrid(16);
+let gridSize = 16;
+
+// TODO - figure out how to add create a different grid upon reset
+/* function getGridSize() {
+  return parseInt(prompt("Choose your grid size:"));
+} */
+
+createGrid(gridSize);
 
 const cellHover = document.querySelectorAll(".gridCell");
 
